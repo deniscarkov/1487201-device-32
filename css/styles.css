@@ -823,6 +823,10 @@ body {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(2, 360px);
+	grid-column-gap: 40px;
+	grid-row-gap: 44px;
 }
 
 .product-card-link {
@@ -831,6 +835,24 @@ body {
 	letter-spacing: -0.02em;
 	color: #000000;
 	text-decoration: none;
+	display: grid;
+	grid-template-rows: 380px min-content;
+	grid-template-columns: 280px min-content;
+	grid-row-gap: 32px;
+	grid-column-gap: 14px;
+}
+
+.product-card-image {
+	grid-column: 1 / -1;
+}
+
+.product-card-title {
+	margin: 0;
+	grid-column: 1 / 2;
+}
+
+.product-card-item-button {
+	display: none;
 }
 
 .product-card-price {
