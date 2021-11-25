@@ -673,6 +673,7 @@ body {
 .page-container {
 	width: 1160px;
 	margin: 0 auto;
+	position: relative;
 }
 
 /* Слайдер */
@@ -782,7 +783,6 @@ body {
 .slider-pagination-item:last-of-type {
 	margin-right: 60px;
 }
-
 
 
 .slider-pagination-button:hover {
